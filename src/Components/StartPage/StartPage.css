@@ -1,20 +1,42 @@
-.main-tems {
-    text-align: center;
-    margin-top: 5rem;
+.startpage-container {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(145deg, #18503a, #1b3f1b, #191919);
+    height: 100vh;
+    color: white;
+    overflow-y: auto;
 }
+.startpage-container::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }
 
-.main-tems img {
+.main-items img {
     width: 150px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-.main-tems h3 {
+.main-items {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.main-items h3 {
     font-family: 'exo-2', sans-serif;
     margin-top: 20px;
     font-size: 30px;
     font-weight: bold;
-    color: #ececec;
+    color: #ffffff;
     cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+
+
+.movie-input:hover,
+.movie-input:focus {
+    box-shadow: 0 0 10px #a8d5ba, 0 0 15px #d1ede1, 0 0 20px #c3e7d6;
 }
 
 .form {
@@ -29,7 +51,7 @@
     border-radius: 20px;
     font-size: 16px;
     cursor: default;
-    background-color: #1a2722;
+    background-color: #255c32;
     color: aliceblue;
 }
 
@@ -70,6 +92,11 @@
     box-shadow: 0 0 5px #707479, 0 0 7px #a1bbbb, 0 0 10px #979b9f;
 }
 
+.search-icon:hover {
+    background-color: #2c3834;
+    color: #a8d5ba;
+}
+
 .search-icon span{
     font-size: 25px;
     font-weight: bold;
@@ -83,7 +110,7 @@
 .mainpage-btn {
     margin-top: 3rem;
     padding: 10px 20px;
-    background-color: #223426;
+    background-color: #3f7f4d;
     color: #fff;
     border: none;
     border-radius: 25px;
@@ -124,4 +151,85 @@
     box-shadow: 0 0 10px #707479, 0 0 20px #a1bbbb, 0 0 30px #979b9f;
     transition: 0.4s ease;
     transform: scale(1.1);
+    background: linear-gradient(90deg, #1d2623, #2c3834, #3a4741);
+} 
+
+
+.startpage-text {
+    max-width: 800px; /* Limit the width of the text content */
+    margin: 0 auto; /* Center the text content */
+    padding: 20px; /* Add space on all sides */
+    text-align: justify; /* Optional: Align the text for better readability */
+    color: #ffffff;
 }
+
+.startpage-text h1 { /* Center the headings */
+    color: #eef6f1;
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+
+.startpage-text p {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+    .main-items{
+        margin-top: 7rem;
+    }
+    .main-items img {
+      max-width: 200px;
+    }
+  
+    .search-form {
+      max-width: 90%;
+      margin-left: auto;
+    }
+  
+    .movie-input {
+      font-size: 14px;
+    }
+  
+    /* .mainpage-btn {
+      font-size: 14px;
+      padding: 8px 16px;
+    } */
+  
+    .startpage-text h1 {
+      font-size: 24px;
+    }
+  
+    .startpage-text p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .main-items{
+        margin-top: 10rem;
+    }
+    .main-items img {
+      max-width: 150px;
+    }
+  
+    .movie-input {
+      padding: 8px 10px;
+    }
+  
+    .mainpage-btn {
+      font-size: 15px;
+      padding: 10px 20px;
+      margin-left: 2px;
+    }
+  
+    .startpage-text h1 {
+      font-size: 20px;
+    }
+  
+    .startpage-text p {
+      font-size: 12px;
+    }
+  }

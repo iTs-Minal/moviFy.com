@@ -1,14 +1,26 @@
+import { useState } from 'react';
 import movifyLogo from '../../assets/movifyLogo.png';
 import './Header.css';
+import { FaBars, FaTimes } from 'react-icons/fa'; 
 
 
 const Header = () => {
+
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <div className="page-header">
       <div className="logo">
         <img src={movifyLogo} alt="MoviFy" />
       </div>
-    <div className="navbar-items">
+    <div className={`navbar-items ${menuOpen ? 'open' : ''}`}>
+    <div className="close-icon" onClick={toggleMenu}>
+          <FaTimes />
+        </div>
         <ul className="items">
             <li className='home'>Home</li>
             <li className='movies'>Movies</li>
@@ -16,6 +28,9 @@ const Header = () => {
             <li className='top-imdb'>Top IMdB</li>
         </ul>
     </div>
+    <div className="menu-icon" onClick={toggleMenu}>
+        <FaBars />
+      </div>
 
     </div>
   )

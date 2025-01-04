@@ -5,14 +5,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif; /* Optional font family */
-    background-image: url('./assets/movifyBg.png'); /* Path to your image */
-    background-size: cover; /* Scale the image to cover the entire area */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Avoid repeating the image */
-    height: 100vh; /* Full viewport height */
-    color: white; /* Make text white for contrast */
+
+body{
+  overflow: hidden;
+}
+
+@media(max-width: 500px){
+  html{
+      font-size:55%;
   }
+  
+}
