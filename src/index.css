@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Optional font family */
+    background-image: url('./assets/movifyBg.png'); /* Path to your image */
+    background-size: cover; /* Scale the image to cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Avoid repeating the image */
+    height: 100vh; /* Full viewport height */
+    color: white; /* Make text white for contrast */
+  }

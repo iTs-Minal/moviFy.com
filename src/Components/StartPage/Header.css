@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+/* General styling for the header */
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: black; /* Dark background color */
+  color: white; /* White text */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  height: 70px;
+  font-family: "exo 2", sans-serif;
+}
+
+/* Logo styling */
+.logo img {
+  height: 70px; /* Adjust height to fit the header */
+  width: auto; /* Maintain aspect ratio */
+}
+
+/* Navigation container styling */
+.navbar-items {
+  display: flex;
+  align-items: center;
+}
+
+/* Navigation list styling */
+.items {
+  list-style: none; /* Remove default list style */
+  display: flex; /* Arrange items in a row */
+  gap: 2.5rem; /* Space between items */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  cursor: pointer; /* Pointer cursor for interactivity */
+}
+
+.items .home:hover {
+  color: blanchedalmond;
+}
+
+.items .movies:hover {
+  color: blanchedalmond;
+}
+.items .tv-shows:hover {
+  color: blanchedalmond;
+}
+.items .top-imdb:hover {
+  color: blanchedalmond;
+}
+
+/* Individual navigation item styling */
+.nav-item {
+  cursor: pointer; /* Pointer cursor for interactivity */
+  font-size: 1.3rem; /* Base font size */
+  transition: color 0.3s ease; /* Smooth color change */
+}
+
+/* Hover effect for navigation items */
+.nav-item:hover {
+  color: #61dafb; /* Light blue hover effect */
+}
+
+/* Responsive Design: For smaller screens */
+@media (max-width: 768px) {
+  .page-header {
+    flex-direction: column; /* Stack logo and nav on top of each other */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .logo img {
+    height: 40px; /* Smaller logo for smaller screens */
+  }
+
+  .items {
+    flex-direction: column; /* Stack nav items vertically */
+    gap: 1rem; /* Space between stacked items */
+    width: 100%; /* Full width */
+    align-items: flex-start; /* Align items to the start */
+  }
+}
