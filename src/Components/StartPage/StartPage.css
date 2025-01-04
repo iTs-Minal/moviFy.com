@@ -19,7 +19,7 @@
 
 .main-items {
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 8rem;
 }
 
 .main-items h3 {
@@ -30,13 +30,13 @@
     color: #ffffff;
     cursor: pointer;
     transition: transform 0.3s ease, color 0.3s ease;
+    letter-spacing: 1.5px;
 }
 
 
 
-.movie-input:hover,
-.movie-input:focus {
-    box-shadow: 0 0 10px #a8d5ba, 0 0 15px #d1ede1, 0 0 20px #c3e7d6;
+.movie-input:hover:focus {
+    background-color: #171c1a;
 }
 
 .form {

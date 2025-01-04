@@ -1,7 +1,10 @@
+import HomePageHeader from "./HomePageHeader"
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div className="homepage-container">
+      <HomePageHeader/>
+    </div>
   )
 }
 

@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+/* HomePageHeader.css */
+
+/* General Reset */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  header {
+    font-family: 'exo-2', sans-serif;
+  }
+  
+  /* Header Styles */
+  .homepage-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #1c1c1c;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Left Section */
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-section {
+    margin-right: 20px;
+  }
+  
+  .logo {
+    margin-left: 1rem;
+    height: 40px;
+    width: auto;
+  }
+  
+  .menu-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    background-color: #2b2b2b;
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+  .menu-section:hover{
+    box-shadow: 0 0 5px #707479, 0 0 5px #a1bbbb, 0 0 5px #979b9f;
+  }
+
+  .menu-logo-section{
+    display: flex;
+    gap:2rem;
+  }
+
+  
+  .icon-menu {
+    font-size: 24px;
+    margin-right: 5px;
+  }
+  
+  .menu-text {
+    font-size: 16px;
+  }
+  
+  /* Sidebar Styles */
+  .browsemenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    background-color: #181717;
+    color: #ffffff;
+    overflow-y: auto;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+  
+  .browsemenu.open {
+    transform: translateX(0);
+  }
+  
+  .browsemenu-items {
+    padding: 30px;
+  }
+  
+  .browsemenu-items li {
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #fffdfd;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+    border-bottom: 2px solid #444;
+    margin: 20px;
+  }
+  
+  .browsemenu-items li:hover {
+    background-color: #272626;
+    color: #fff;
+    transform: scale(1.1);
+  }
+  
+  .browsemenu-items li span {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .icon-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #f6f2f2;
+    padding-top: 2px;
+    border-radius: 60%;
+  }
+  
+  .icon-close:hover {
+    box-shadow: 0 0 5px #707479, 0 0 5px #a1bbbb, 0 0 5px #979b9f;
+    color: #fff;
+    transform: scale(1.3);
+  }
+  
+  /* Search Section */
+  .search-section {
+    margin-left: 6rem;
+  }
+  
+  .search-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-form1 {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #f4eaea;
+  }
+  
+  .search-icon {
+    font-size: 30px;
+    color: #f6f3f3;
+  }
+  
+  .search-input {
+    border: none;
+    background: transparent;
+    outline: none;
+    width:500px;
+    color: #0e0d0d;
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  
+  .search-input::placeholder {
+    color: #5a5757bd;
+    font-size: 16px;
+  }
+  .search-input:focus::placeholder{
+    opacity:0;
+  }
+  
+  /* Right Section */
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 20px;
+    padding:8px;
+    border-radius:10px;
+  }
+  .login-section:hover{
+    box-shadow: 0 0 5px #707479, 0 0 5px #a1bbbb, 0 0 5px #979b9f;
+  }
+  
+  .login-icon {
+    font-size: 18px;
+    margin-right: 15px;
+  }
+  
+  .login-text {
+    font-size: 16px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .menu-text {
+      display: none;
+    }
+    .icon-menu{
+        font-size: 20px;
+    }
+    .menu-section{
+        margin-left: -2rem;
+    }
+  
+    .search-input {
+      display: none;
+    }
+
+
+    .search-form1{
+        background-color: #1c1c1c;
+    }
+    .search-icon{
+        font-size: 40px;
+    }
+    .search-content{
+        margin-left: -6rem;
+    }
+    .login-text{
+        display:none
+    }
+  
+    .homepage-header {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+  

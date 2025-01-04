@@ -11,7 +11,7 @@ const StartPage = ({ onHomePage }) => {
       <Header />
       <div className="main-items">
         <img src={movifyMain} alt="Main" />
-        <h3>MOVIFY.COM</h3>
+        <h3>MoviFy.com</h3>
       </div>
       <div className="form">
         <form className="search-form">

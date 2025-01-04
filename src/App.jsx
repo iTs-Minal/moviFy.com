@@ -15,8 +15,7 @@ const handleAtHomePage=()=>{
     <>
     {atHomePage?
       <HomePage />:
-      <StartPage onHomePage={handleAtHomePage}/>
-    }
+      <StartPage onHomePage={handleAtHomePage}/>} 
     </>
   )
 }

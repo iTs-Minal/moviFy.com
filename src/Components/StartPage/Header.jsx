@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import movifyLogo from '../../assets/movifyLogo.png';
+import movifyLogo from '../../assets/movifyMain.png';
 import './Header.css';
 import { FaBars, FaTimes } from 'react-icons/fa'; 
 
