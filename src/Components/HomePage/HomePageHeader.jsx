@@ -100,7 +100,7 @@ const HomePageHeader = () => {
         <div className="right-section">
           <div className="login-section">
             <FaUserAlt className="icon login-icon" />
-            <span className="login-text">Log In</span>
+            <span className="login-text">Login</span>
           </div>
         </div>
       </header>

@@ -11,7 +11,9 @@ const App = () => {
 
   return (
     <>
-      {atHomePage ? <HomePage /> : <StartPage onHomePage={handleAtHomePage} />}
+      {/* {atHomePage ?  */}
+      <HomePage />
+       {/* : <StartPage onHomePage={handleAtHomePage} />} */}
     </>
   );
 };
