@@ -36,7 +36,7 @@
 }
 
 .navbar-items ul li {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   cursor: pointer;
   font-size: 20px;
   padding: 10px 15px;
@@ -44,11 +44,12 @@
 }
 
 .navbar-items ul li:hover {
- color:rgb(159, 190, 218);
+  color: rgb(159, 190, 218);
 }
 
 /* Menu icons */
-.menu-icon, .close-icon {
+.menu-icon,
+.close-icon {
   display: none;
   font-size: 24px;
   cursor: pointer;
@@ -63,7 +64,7 @@
     height: 100vh;
     width: 75%;
     max-width: 300px;
-    background-color: #1c1c1c;
+    background-color: #1f1e1e;
     transform: translateX(100%);
     flex-direction: column;
     justify-content: center;
@@ -94,8 +95,11 @@
   }
 
   .navbar-items ul li {
-    font-size: 18px;
+    font-size: 20px;
+    padding: 15px;
+    margin: 5px;
     width: 100%;
     text-align: center;
+    border-bottom: 2px solid #000000;
   }
 }

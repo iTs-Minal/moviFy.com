@@ -1,235 +1,234 @@
 .startpage-container {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(145deg, #18503a, #1b3f1b, #191919);
-    height: 100vh;
-    color: white;
-    overflow-y: auto;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(145deg, #0f1110, #0f0f0f, #030202);
+  height: 100vh;
+  color: white;
+  overflow-y: auto;
 }
 .startpage-container::-webkit-scrollbar {
-    display: none; /* For Chrome, Safari, and Opera */
-  }
+  display: none; /* For Chrome, Safari, and Opera */
+}
 
 .main-items img {
-    width: 150px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  width: 150px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .main-items {
-    text-align: center;
-    margin-top: 8rem;
+  text-align: center;
+  margin-top: 8rem;
 }
 
 .main-items h3 {
-    font-family: 'exo-2', sans-serif;
-    margin-top: 20px;
-    font-size: 30px;
-    font-weight: bold;
-    color: #ffffff;
-    cursor: pointer;
-    transition: transform 0.3s ease, color 0.3s ease;
-    letter-spacing: 1.5px;
+  font-family: "exo-2", sans-serif;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+  letter-spacing: 1.5px;
 }
 
-
-
 .movie-input:hover:focus {
-    background-color: #171c1a;
+  background-color: #ffffff;
 }
 
 .form {
-    text-align: center;
-    margin: 30px 0;
+  text-align: center;
+  margin: 30px 0;
 }
 
 .form .movie-input {
-    padding: 10px;
-    width: 70%;
-    border: 1px solid #0a0a0a;
-    border-radius: 20px;
-    font-size: 16px;
-    cursor: default;
-    background-color: #255c32;
-    color: aliceblue;
+  padding: 10px;
+  width: 70%;
+  border: 0px solid #0a0a0a;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: default;
+  background-color: #fbfbfbe4;
+  color: rgb(0, 0, 0);
 }
 
 .movie-input:focus {
-    outline: none;
+  outline: none;
 }
 
-.movie-input::placeholder{
-    color: azure;
+.movie-input::placeholder {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
 }
 
-.movie-input:focus::placeholder{
-    opacity: 0;
+.movie-input:focus::placeholder {
+  opacity: 0;
 }
 
-.movie-input:hover{
+/* .movie-input:hover{
     box-shadow: 0 0 5px #707479, 0 0 7px #a1bbbb, 0 0 10px #979b9f;
-}
+} */
 
-.search-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.search-icon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1b1f1b; /* Optional: Add a background to the icon */
-    padding: 7px; /* Adjust padding for a clickable area */
-    border-radius: 50px; /* Match the input field border radius */
-    cursor: pointer; 
-    margin-left: 5px;
-}
-
-.search-icon:hover{
-    transform: scale(1.1);
-    box-shadow: 0 0 5px #707479, 0 0 7px #a1bbbb, 0 0 10px #979b9f;
+.search-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000; /* Optional: Add a background to the icon */
+  padding: 7px; /* Adjust padding for a clickable area */
+  border-radius: 20px; /* Match the input field border radius */
+  cursor: pointer;
+  margin-left: 5px;
 }
 
 .search-icon:hover {
-    background-color: #2c3834;
-    color: #a8d5ba;
+  transform: scale(1.1);
+  /* box-shadow: 0 0 5px #707479, 0 0 7px #a1bbbb, 0 0 10px #979b9f; */
 }
 
-.search-icon span{
-    font-size: 25px;
-    font-weight: bold;
-    color:#f8f1f1;
+.search-icon:hover {
+  background-color: #252827;
+  color: #ffffff;
 }
-.main-btn{
-    display: flex;
-    justify-content: center;
+
+.search-icon span {
+  font-size: 25px;
+  font-weight: bold;
+  color: #f8f1f1;
+}
+.main-btn {
+  display: flex;
+  justify-content: center;
 }
 
 .mainpage-btn {
-    margin-top: 3rem;
-    padding: 10px 20px;
-    background-color: #3f7f4d;
-    color: #fff;
-    border: none;
-    border-radius: 25px;
-    font-size: 25px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
-    position: relative;
-    overflow: hidden;
-    z-index: 0;
-    transition: transform 0.3s ease;
+  margin-top: 3rem;
+  padding: 10px 20px;
+  background-color: #dee3df;
+  color: #000000;
+  border: none;
+  border-radius: 25px;
+  font-size: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  transition: transform 0.3s ease;
 }
 
-
 .mainpage-btn::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: 5px;
-    background: linear-gradient(90deg, #171c1a, #1d2623, #1e291e);
-    z-index: -1;
-    filter: blur(10px);
-    opacity: 0;
-    transition: transform 0.3s ease;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #171c1a, #1d2623, #1e291e);
+  z-index: -1;
+  filter: blur(10px);
+  opacity: 0;
+  transition: transform 0.3s ease;
 }
 
 .mainpage-btn:hover::before {
-    opacity: 1;
+  opacity: 1;
 }
 
 .mainpage-btn:hover {
-    color: #fff;
-    box-shadow: 0 0 10px #707479, 0 0 20px #a1bbbb, 0 0 30px #979b9f;
-    transition: 0.4s ease;
-    transform: scale(1.1);
-    background: linear-gradient(90deg, #1d2623, #2c3834, #3a4741);
-} 
-
-
-.startpage-text {
-    max-width: 800px; /* Limit the width of the text content */
-    margin: 0 auto; /* Center the text content */
-    padding: 20px; /* Add space on all sides */
-    text-align: justify; /* Optional: Align the text for better readability */
-    color: #ffffff;
+  color: #fff;
+  box-shadow: 0 0 10px #707479, 0 0 20px #a1bbbb, 0 0 30px #979b9f;
+  transition: 0.4s ease;
+  transform: scale(1.1);
+  background: linear-gradient(90deg, #181b1a, #090d0b, #3a4741);
 }
 
-.startpage-text h1 { /* Center the headings */
-    color: #eef6f1;
-    font-size: 35px;
-    margin-bottom: 1rem;
+.startpage-text {
+  max-width: 100%; /* Limit the width of the text content */
+  margin: 2.5rem 1rem 0 1rem; /* Center the text content */
+  padding: 20px; /* Add space on all sides */
+  text-align: justify; /* Optional: Align the text for better readability */
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.startpage-text h1 {
+  /* Center the headings */
+  color: #eef6f1;
+  font-size: 35px;
+  margin-bottom: 1rem;
 }
 
 .startpage-text p {
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 1.5;
-    margin-bottom: 3rem;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 3rem;
 }
 
 @media (max-width: 768px) {
-    .main-items{
-        margin-top: 7rem;
-    }
-    .main-items img {
-      max-width: 200px;
-    }
-  
-    .search-form {
-      max-width: 90%;
-      margin-left: auto;
-    }
-  
-    .movie-input {
-      font-size: 14px;
-    }
-  
-    /* .mainpage-btn {
+  .main-items {
+    margin-top: 7rem;
+  }
+  .main-items img {
+    max-width: 200px;
+  }
+
+  .search-form {
+    max-width: 90%;
+    margin-left: auto;
+  }
+
+  .movie-input {
+    font-size: 14px;
+  }
+
+  /* .mainpage-btn {
       font-size: 14px;
       padding: 8px 16px;
     } */
-  
-    .startpage-text h1 {
-      font-size: 24px;
-    }
-  
-    .startpage-text p {
-      font-size: 14px;
-    }
+
+  .startpage-text h1 {
+    font-size: 24px;
   }
-  
-  @media (max-width: 480px) {
-    .main-items{
-        margin-top: 10rem;
-    }
-    .main-items img {
-      max-width: 150px;
-    }
-  
-    .movie-input {
-      padding: 8px 10px;
-    }
-  
-    .mainpage-btn {
-      font-size: 15px;
-      padding: 10px 20px;
-      margin-left: 2px;
-    }
-  
-    .startpage-text h1 {
-      font-size: 20px;
-    }
-  
-    .startpage-text p {
-      font-size: 12px;
-    }
+
+  .startpage-text p {
+    font-size: 14px;
   }
+}
+
+@media (max-width: 480px) {
+  .main-items {
+    margin-top: 10rem;
+  }
+  .main-items img {
+    max-width: 150px;
+  }
+
+  .movie-input {
+    padding: 8px 10px;
+  }
+
+  .mainpage-btn {
+    font-size: 15px;
+    padding: 10px 20px;
+    margin-left: 2px;
+  }
+
+  .startpage-text h1 {
+    font-size: 20px;
+  }
+
+  .startpage-text p {
+    font-size: 12px;
+  }
+}

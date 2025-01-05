@@ -18,7 +18,7 @@ const StartPage = ({ onHomePage }) => {
           <input
             type="text"
             className="movie-input"
-            placeholder="Enter Movie Name"
+            placeholder="Enter movie, Tv shows..."
           />
           <div className="search-icon">
             <span>
@@ -46,12 +46,13 @@ const StartPage = ({ onHomePage }) => {
             for income while ads can carry viruses and malware. Security is the
             main reason people decide to pay for paid streaming services
             instead. If it has been your headache for a while, we have found you
-            the cure: a free site with no ads. Or to be more specific, MoviFy.com.
-            With no ads, MoviFy.com poses no risk to both your device and identity.
-            The site also boasts a huge collection of movies for free streaming,
-            HD quality, fast loading speed, constant content updates, and many
-            more outstanding features. A penny saved is a penny earned. Earn
-            money effortlessly by watching movies online for free at MoviFy.com!{" "}
+            the cure: a free site with no ads. Or to be more specific,
+            MoviFy.com. With no ads, MoviFy.com poses no risk to both your
+            device and identity. The site also boasts a huge collection of
+            movies for free streaming, HD quality, fast loading speed, constant
+            content updates, and many more outstanding features. A penny saved
+            is a penny earned. Earn money effortlessly by watching movies online
+            for free at MoviFy.com!{" "}
           </p>
         </div>
         <div className="lowertext">

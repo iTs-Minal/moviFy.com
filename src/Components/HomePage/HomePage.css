@@ -1,0 +1,7 @@
+/* .homepage-headercontainer{
+} */
+@media (max-width: 900px) {
+  .homepage-headercontainer {
+    width: 100%;
+  }
+}
