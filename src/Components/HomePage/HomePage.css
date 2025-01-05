@@ -1,5 +1,6 @@
 .homepage-container{
   height:100vh;
   overflow-y: auto;
-  background-color: rgb(159, 135, 135);
+  scroll-behavior: auto;
+  background-color: rgb(0, 0, 0);
 }
