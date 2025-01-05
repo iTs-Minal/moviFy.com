@@ -1,0 +1,123 @@
+.filmslider-filmlist-social {
+  display: flex;
+  height: 100vh;
+  overflow-y: hidden;
+  margin: 1rem 2rem;
+  background-color: #666;
+}
+.sliderimage-placeholder {
+  width: 700px;
+  height: 500px;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  position: relative;
+  top: -2rem;
+}
+
+.filmslider{
+    height: 500px;
+}
+
+.leftarrow {
+  position: relative;
+  top: 45%;
+  z-index: 1;
+  padding: 10px 3px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 15px;
+}
+.leftarrow:hover{
+    background-color: #d53535;
+    border-radius: 15px;
+}
+
+.rightarrow {
+  position: relative;
+  z-index: 1;
+  left: 97%;
+  bottom: 83%;
+  padding: 10px 3px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 15px;
+}
+.rightarrow:hover{
+    background-color: #d53535;
+    border-radius: 15px;
+}
+
+.filmdetails {
+  max-width: 27rem;
+  display: block;
+  bottom: 10rem;
+  left: 4rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.filmtitle {
+    margin-bottom: .5rem;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.filmtitle:hover{
+    transition: scale(1.1) 0.3s ease;
+}
+
+.filmrating {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.filmquality {
+    margin-left: 2rem;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.filmdescription {
+    margin-top: 0.5rem;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.itemimage-placeholder {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+.filmlist{
+    max-height: 500px;
+    display: flex;
+    margin-left: 1rem;
+    align-items: center;
+}
+.filmitems{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-left: 5px;
+    
+}
+.filmitem{
+    display: flex;
+    flex-direction: row;
+    padding:25px 0;
+}
+
