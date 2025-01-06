@@ -1,0 +1,17 @@
+.tvshow-container{
+    display: flex;
+    height:100vh;
+    background-color: black;
+}
+.tvshow-wrapper1{
+    width: 100%;
+    margin:2rem 2rem;
+    background: linear-gradient(120deg, #3e3e3e, #1b1b1b, #181818);
+}
+.title{
+    display:flex;
+    flex-direction: row;
+    gap:1rem;
+    margin-top: 5px;
+    margin-left: 5px;
+}

@@ -1,4 +1,4 @@
-import "./Movies.css";
+import "./MovieSection.css";
 import { FaFireAlt } from "react-icons/fa";
 import { MdLiveTv } from "react-icons/md";
 import { BiSolidMoviePlay } from "react-icons/bi";

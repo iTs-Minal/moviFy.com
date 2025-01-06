@@ -154,7 +154,7 @@
 
 .startpage-text {
   max-width: 100%; /* Limit the width of the text content */
-  margin: 2.5rem 1rem 0 1rem; /* Center the text content */
+  margin: 2.5rem 2.5rem 0 2.5rem; /* Center the text content */
   padding: 20px; /* Add space on all sides */
   text-align: justify; /* Optional: Align the text for better readability */
   color: #ffffff;
@@ -163,16 +163,18 @@
 
 .startpage-text h1 {
   /* Center the headings */
-  color: #eef6f1;
+  color: #f7f7f7d6;
   font-size: 35px;
   margin-bottom: 1rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .startpage-text p {
-  font-weight: bold;
-  font-size: 15px;
+  color: #dee3df;
+  font-size: 16px;
   line-height: 1.5;
   margin-bottom: 3rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 @media (max-width: 768px) {

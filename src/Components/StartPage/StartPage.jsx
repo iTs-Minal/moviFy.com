@@ -4,8 +4,9 @@ import { FiSearch } from "react-icons/fi";
 import "./StartPage.css";
 import { FaArrowRight } from "react-icons/fa";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
-const StartPage = ({ onHomePage }) => {
+const StartPage = () => {
   return (
     <div className="startpage-container">
       <Header />
@@ -27,14 +28,17 @@ const StartPage = ({ onHomePage }) => {
           </div>
         </form>
         <div className="main-btn">
-          <button className="mainpage-btn" onClick={onHomePage}>
-            View Full Site <FaArrowRight />
-          </button>
+          <Link to="/home">
+            <button className="mainpage-btn">
+              View Full Site
+              <FaArrowRight />
+            </button>
+          </Link>
         </div>
       </div>
 
       <div className="startpage-text">
-        <div className="uppertext">
+        <div>
           <h1>Watch Movies Online Free</h1>
           <p>
             People have many reasons to opt for a free movie site. Many of us
@@ -52,10 +56,10 @@ const StartPage = ({ onHomePage }) => {
             movies for free streaming, HD quality, fast loading speed, constant
             content updates, and many more outstanding features. A penny saved
             is a penny earned. Earn money effortlessly by watching movies online
-            for free at MoviFy.com!{" "}
+            for free at MoviFy.com!
           </p>
         </div>
-        <div className="lowertext">
+        <div>
           <h1>What is MoviFy.com?</h1>
           <p>
             MoviFy.com is a new name in the streaming industry. However, its
@@ -67,7 +71,34 @@ const StartPage = ({ onHomePage }) => {
             thousands of movies and TV shows in the best resolution possible
             with no ads. We also provide users with fast loading speed, safe and
             private sources, seamless streaming feature, and many other benefits
-            you never expect from a free movie site.{" "}
+            you never expect from a free movie site.
+          </p>
+        </div>
+        <div>
+          <h1>Is It Illegal to Use MoviFy.com?</h1>
+          <p>
+            MoviFy.com is not a legal site as the content for free streaming is
+            pirated. However, if you are concerned about criminal or civil
+            charges, don’t worry, you are safe. According to copyright
+            attorneys, watching movies online is not illegal, but sharing or
+            downloading pirated content might cause you troubles with
+            authorities. If you insist on downloading videos for later usage
+            offline, use a reliable VPN and proceed at your own risk.
+          </p>
+        </div>
+        <div>
+          <h1>Is MoviFy.com safe?</h1>
+          <p>
+            MoviFy.com is as safe as Youtube, Google, and Netflix. Our site is 100%
+            ad-free, meaning that there are no ads, pop ups, or commercials on
+            the site. Although most ads are safe, some of them might give you
+            serious headaches such as identity theft, data loss, or corrupted
+            networks. Therefore, it is only wise to stay away from ads
+            altogether. As there is no registration or signup required on
+            MoviFy.com, you do not need to reveal your information with the site.
+            By doing so, you are also safe from information leakage. To sum it
+            up, MoviFy.com is one of the safest and most reliable free movie sites
+            you can find on the Internet.
           </p>
         </div>
       </div>

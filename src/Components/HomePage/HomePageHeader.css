@@ -130,6 +130,7 @@ header {
 .browsemenu-items li span {
   margin-right: 10px;
   font-size: 20px;
+  color:rgb(255, 153, 0);
 }
 
 .icon-close {

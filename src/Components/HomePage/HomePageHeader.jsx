@@ -1,4 +1,5 @@
 import movifylogo from "../../assets/movifyMain.png";
+import { Link } from "react-router-dom";
 import { FiAlignLeft } from "react-icons/fi";
 import { FaHome } from "react-icons/fa";
 import { MdLiveTv } from "react-icons/md";
@@ -40,43 +41,57 @@ const HomePageHeader = () => {
                 <div className="icon-close" onClick={() => handleBrowseMenu()}>
                   <FaTimes />
                 </div>
+
+                {/* Routing the menu elements */}
                 <ul className="browsemenu-items">
-                  <li className="home">
-                    <span className="home-icon">
-                      <FaHome />
-                    </span>
-                    Home
-                  </li>
-                  <li className="movies">
-                    <span className="movies-icon">
-                      <BiSolidMoviePlay />
-                    </span>
-                    Movies
-                  </li>
-                  <li className="tvshow">
-                    <span className="tvshow-icon">
-                      <MdLiveTv />
-                    </span>
-                    TV Shows
-                  </li>
-                  <li className="imdb">
-                    <span className="imdb-icon">
-                      <FaImdb />
-                    </span>
-                    Top IMdB
-                  </li>
-                  <li className="trending">
-                    <span className="trend-icon">
-                      <FaFireAlt />
-                    </span>
-                    Trending
-                  </li>
-                  <li className="upcoming">
-                    <span className="up-icon">
-                      <RiMovie2Fill />
-                    </span>
-                    Upcoming
-                  </li>
+                  <Link to="/StartPage" onClick={() => setBrowseMenu(false)}>
+                    <li className="home">
+                      <span className="home-icon">
+                        <FaHome />
+                      </span>
+                      Home
+                    </li>
+                  </Link>
+                  <Link to="/Movie" onClick={() => setBrowseMenu(false)}>
+                    <li className="movies">
+                      <span className="movies-icon">
+                        <BiSolidMoviePlay />
+                      </span>
+                      Movie
+                    </li>
+                  </Link>
+                  <Link to="/TvShow" onClick={() => setBrowseMenu(false)}>
+                    <li className="tvshow">
+                      <span className="tvshow-icon">
+                        <MdLiveTv />
+                      </span>
+                      Tv Shows
+                    </li>
+                  </Link>
+                  <Link to="/TopImdb" onClick={() => setBrowseMenu(false)}>
+                    <li className="imdb">
+                      <span className="imdb-icon">
+                        <FaImdb />
+                      </span>
+                      Top IMdB
+                    </li>
+                  </Link>
+                  <Link to="/Trending" onClick={() => setBrowseMenu(false)}>
+                    <li className="trending">
+                      <span className="trend-icon">
+                        <FaFireAlt />
+                      </span>
+                      Trending
+                    </li>
+                  </Link>
+                  <Link to="/Upcoming">
+                    <li className="upcoming">
+                      <span className="up-icon">
+                        <RiMovie2Fill />
+                      </span>
+                      Upcoming
+                    </li>
+                  </Link>
                 </ul>
               </div>
             </div>

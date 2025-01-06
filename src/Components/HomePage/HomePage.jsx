@@ -1,7 +1,7 @@
 import HomePageHeader from "./HomePageHeader";
 import SliderWithSocial from "../MoviePage/SliderWithSocial"; 
 import "./HomePage.css";
-import Movies from "../MoviePage/Movies";
+import Movies from "../MoviePage/MovieSection";
 
 
 
