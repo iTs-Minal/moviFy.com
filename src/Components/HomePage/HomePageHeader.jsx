@@ -3,12 +3,12 @@ import { FiAlignLeft } from "react-icons/fi";
 import { FaHome } from "react-icons/fa";
 import { MdLiveTv } from "react-icons/md";
 import { BiSolidMoviePlay } from "react-icons/bi";
+import { RiMovie2Fill } from "react-icons/ri";
 import { FaImdb } from "react-icons/fa";
 import { FaFireAlt } from "react-icons/fa";
 import { ImSearch } from "react-icons/im";
 import { FaUserAlt } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
-import { RiMovie2Fill } from "react-icons/ri";
 import { useState } from "react";
 import "./HomePageHeader.css";
 

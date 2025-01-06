@@ -22,6 +22,8 @@ const SliderWithSocial = () => {
             src={johnwick4}
             alt="placeholder"
           />
+          <div className="slidercaption">
+
           <div className="filmdetails">
             <h2 className="filmtitle">John Wick 4</h2>
             <span className="filmrating">
@@ -37,6 +39,7 @@ const SliderWithSocial = () => {
               revenge arc of his life in this process he faces great
               difficulty...
             </p>
+          </div>
           </div>
           <span className="rightarrow">
             <FaChevronRight />

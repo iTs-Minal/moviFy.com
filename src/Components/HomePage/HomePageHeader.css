@@ -92,7 +92,7 @@ header {
   left: 0;
   height: 100%;
   width: 300px;
-  background-color: #000000;
+  background: linear-gradient(180deg, #3e3e3e, #1b1b1b, #000000);
   color: #ffffff;
   overflow-y: auto;
   transform: translateX(-100%);
@@ -125,7 +125,6 @@ header {
   background-color: #1c1c1c;
   color: #fff;
   transform: scale(1.1);
-  border-radius: 20px;
 }
 
 .browsemenu-items li span {
@@ -145,7 +144,6 @@ header {
 }
 
 .icon-close:hover {
-  box-shadow: 0 0 5px #707479, 0 0 5px #a1bbbb, 0 0 5px #979b9f;
   color: #fff;
   transform: scale(1.3);
 }

@@ -1,6 +1,7 @@
-.star{
-  color:yellow;
+.star {
+  color: yellow;
   font-size: 13px;
+  gap:2px;
 }
 
 .filmslider-filmlist-social {
@@ -8,7 +9,7 @@
   height: 520px;
   overflow-y: hidden;
   margin: 1rem 2rem;
-  background: linear-gradient(180deg,#333333,#121212,#000000);
+  background: linear-gradient(180deg, #3e3e3e, #080808, #000000);
 }
 .sliderimage-placeholder {
   max-width: 700px;
@@ -24,6 +25,7 @@
   font-family: Arial, sans-serif;
   position: relative;
   top: -20px;
+  opacity:0;
 }
 
 .filmslider {
@@ -47,8 +49,8 @@
 .rightarrow {
   position: relative;
   z-index: 1;
-  left: 96.8%;
-  bottom: 83%;
+  left: 98%;
+  bottom: 85%;
   padding: 10px 3px;
   background-color: rgb(199, 198, 198);
   color: rgb(0, 0, 0);
@@ -60,23 +62,29 @@
 }
 
 .filmdetails {
-  max-width: 27rem;
-  display: block;
-  bottom: 10rem;
-  left: 4rem;
+  height:8rem;
+  margin-left: 3rem;
+  box-shadow: 0px -20px 20px 0px rgb(0, 0, 0);
+}
+
+.slidercaption {
+  max-width: 700px;
   position: relative;
-  cursor: pointer;
+  bottom: 9rem;
+  background: linear-gradient(180deg, #000000, #000000, #000000,#000000,#000000);
+  box-shadow: -20px -20px 20px 0px rgb(0, 0, 0);
+  height: 8rem;
+  opacity: 0.93;
 }
 
 .filmtitle {
-  margin-bottom: 0.5rem;
-  font-size: 30px;
+  margin-bottom: 15px;
+  font-size: 35px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   cursor: pointer;
   color: #ffffff;
 }
-
 
 .filmrating {
   font-size: 18px;
@@ -92,10 +100,11 @@
   color: #ffffff;
 }
 .filmdescription {
-  margin-top: 0.5rem;
+  max-width: fit-content;
+  margin-top: 15px;
   font-size: 13px;
   cursor: pointer;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #ffffff;
 }
 
@@ -136,8 +145,9 @@
   color: #ffffff;
 }
 .film-rating {
-  font-size: 14px;
+  font-size: 16px;
   margin-right: 1.5rem;
+  gap: 3px;
   font-weight: bold;
 }
 .film-quality {
@@ -145,18 +155,18 @@
   font-weight: bold;
 }
 .film-title {
-  margin-top:10px;
+  margin-top: 10px;
   font-size: 20px;
   margin-bottom: 10px;
   font-weight: bold;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .film-description {
   max-width: auto;
   font-size: 10px;
   color: rgba(240, 248, 255, 0.594);
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .social {
   max-width: auto;
@@ -165,38 +175,41 @@
   flex-wrap: nowrap;
   flex-direction: column;
   align-items: center;
+
 }
 
 .socialitems {
   padding: 10px 0px;
-  cursor:pointer;
+  cursor: pointer;
+  gap:1rem;
 }
-.item{
+.item {
   color: #ffffffad;
   margin-left: 10px;
   padding: 15px 0px 15px 0px;
   border-bottom: 1px solid #353535;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
 }
-.item span{
+.item span {
   font-weight: bold;
   padding: 2px;
-  cursor:pointer;
+  cursor: pointer;
 }
-.item:hover{
-  cursor:pointer;
-  background-color: #1c1c1cba;
-  border-radius: 10px;
+.item:hover {
+  cursor: pointer;
+  background: linear-gradient(180deg, #484848, #363636, #343434);
+  border-radius: 5px;
   color: aliceblue;
 }
 
-.introduction-text{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.introduction-text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   line-height: 22px;
   display: flex;
-  margin:0 2rem 0 2rem;
-  max-width:auto;
-  color:rgba(255, 255, 255, 0.647);
+  margin: 1.5rem 2rem 0 2rem;
+  max-width: auto;
+  color: rgba(255, 255, 255, 0.647);
   font-size: 18px;
 }
