@@ -2,6 +2,7 @@ import HomePageHeader from "./HomePageHeader";
 import SliderWithSocial from "../MoviePage/SliderWithSocial"; 
 import "./HomePage.css";
 import Movies from "../MoviePage/MovieSection";
+import Footer from "./Footer";
 
 
 
@@ -16,6 +17,9 @@ const HomePage = () => {
       </div>
       <div className="movies-wrapper">
         <Movies/>
+      </div>
+      <div className="hompage-footer">
+        <Footer/>
       </div>
     </div>
   );

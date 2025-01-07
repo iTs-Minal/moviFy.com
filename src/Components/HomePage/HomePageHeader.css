@@ -224,7 +224,7 @@ header {
   display: none;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
+  background-color: #000000;
   position: absolute;
   top: 82px;
   left: 120px;
@@ -242,7 +242,7 @@ header {
   width: 100%;
   padding: 15px 10px;
   font-size: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   border-radius: 10px;
   color: #ffffff;
 }
@@ -267,7 +267,7 @@ header {
     display: none;
   }
   .icon-menu {
-    font-size: 18px;
+    font-size: 20px;
   }
   .menu-section {
     margin-left: -2rem;
@@ -288,7 +288,7 @@ header {
   .search-content {
     margin-left: -5rem;
     width: 25px;
-    background-color: #000000;
+    background-color: #2a2a2a;
   }
   .login-text {
     display: none;

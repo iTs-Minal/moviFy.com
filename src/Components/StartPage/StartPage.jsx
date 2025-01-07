@@ -3,8 +3,9 @@ import movifyMain from "../../assets/movifyMain.png";
 import { FiSearch } from "react-icons/fi";
 import "./StartPage.css";
 import { FaArrowRight } from "react-icons/fa";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import Footer from "../HomePage/Footer";
 
 const StartPage = () => {
   return (
@@ -102,11 +103,14 @@ const StartPage = () => {
           </p>
         </div>
       </div>
+      <div>
+        <Footer/>
+      </div>
     </div>
   );
 };
-StartPage.propTypes = {
-  onHomePage: PropTypes.func.isRequired,
-};
+// StartPage.propTypes = {
+//   onHomePage: PropTypes.func.isRequired,
+// };
 
 export default StartPage;

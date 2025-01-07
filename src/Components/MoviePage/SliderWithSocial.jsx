@@ -23,23 +23,25 @@ const SliderWithSocial = () => {
             alt="placeholder"
           />
           <div className="slidercaption">
-
-          <div className="filmdetails">
-            <h2 className="filmtitle">John Wick 4</h2>
-            <span className="filmrating">
-              <span className="star">
-                <FaStar />
+            <div className="filmdetails">
+              <h2 className="filmtitle">John Wick 4</h2>
+              <span className="filmrating">
+                <span className="star">
+                  <FaStar />
+                </span>
+                8.3
               </span>
-              8.3
-            </span>
-            <span className="filmquality">HD</span>
-            <p className="filmdescription">
-              This movie is about a man who avenge the people who killed his dog
-              which was given to him by her wife. And now he have started a
-              revenge arc of his life in this process he faces great
-              difficulty...
-            </p>
-          </div>
+              <span className="filmquality">HD</span>
+              <p className="filmdescription">
+                This movie is about a man who avenge the people who killed his
+                dog which was given to him by her wife. And now he have started
+                a revenge arc of his life in this process he faces great
+                difficulty Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Quas non libero tempora minus ea temporibus facere ad
+                doloremque explicabo ducimus. Perferendis nobis esse modi id
+                error molestiae aliquam aperiam consectetur!
+              </p>
+            </div>
           </div>
           <span className="rightarrow">
             <FaChevronRight />
@@ -64,7 +66,11 @@ const SliderWithSocial = () => {
                 <h3 className="film-title">Superman</h3>
                 <p className="film-description">
                   Its a movie about Superman and his brave deeds of saving
-                  humanity.
+                  humanity. Lorem, ipsum dolor sit amet consectetur adipisicing
+                  elit. Accusantium voluptatibus itaque eveniet ducimus velit
+                  reprehenderit blanditiis placeat sapiente voluptate officia?
+                  Rerum, hic similique amet reprehenderit repellendus doloribus
+                  quo quasi corrupti!
                 </p>
               </div>
             </div>

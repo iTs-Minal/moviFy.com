@@ -36,35 +36,34 @@
   position: relative;
   top: 45%;
   z-index: 1;
-  padding: 10px 3px;
-  background-color: rgb(199, 198, 198);
+  padding: 15px 5px;
   color: rgb(0, 0, 0);
-  border-radius: 15px;
+  border-radius: 2px;
 }
 .leftarrow:hover {
-  background-color: rgb(199, 198, 198);
-  border-radius: 15px;
+  background-color: rgba(188, 190, 186, 0.806);
+  opacity: 0.4;
 }
 
 .rightarrow {
   position: relative;
   z-index: 1;
-  left: 98%;
+  left: 97.5%;
   bottom: 85%;
-  padding: 10px 3px;
-  background-color: rgb(199, 198, 198);
+  padding: 15px 5px;
   color: rgb(0, 0, 0);
-  border-radius: 15px;
+  border-radius: 2px;
 }
 .rightarrow:hover {
-  background-color: rgb(199, 198, 198);
-  border-radius: 15px;
+  background-color: rgba(188, 190, 186, 0.806);
+  opacity: 0.4;
 }
 
 .filmdetails {
   height:8rem;
   margin-left: 3rem;
   box-shadow: 0px -20px 20px 0px rgb(0, 0, 0);
+  
 }
 
 .slidercaption {
@@ -100,17 +99,24 @@
   color: #ffffff;
 }
 .filmdescription {
-  max-width: fit-content;
+  max-width: 500px;
   margin-top: 15px;
   font-size: 13px;
   cursor: pointer;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #ffffff;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Change this number to the desired number of lines */
+  -webkit-box-orient: vertical;
+  line-clamp: 2; /* Change this number to the desired number of lines */
+  box-orient: vertical;
+  text-overflow: ellipsis;
 }
 
 .itemimage-placeholder {
   width: 100px;
-  height: 100px;
+  height: 120px;
   background-color: #141313;
   display: flex;
   align-items: center;
@@ -138,7 +144,7 @@
 .filmitem {
   display: flex;
   flex-direction: row;
-  padding: 25px 0px 30px 25px;
+  padding: 0px 0px 30px 20px;
 }
 .itemdetails {
   margin-left: 20px;
@@ -163,10 +169,17 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .film-description {
-  max-width: auto;
+  max-width: 200px;
   font-size: 10px;
   color: rgba(240, 248, 255, 0.594);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Change this number to the desired number of lines */
+  -webkit-box-orient: vertical;
+  line-clamp: 2; /* Change this number to the desired number of lines */
+  box-orient: vertical;
+  text-overflow: ellipsis;
 }
 .social {
   max-width: auto;
@@ -213,3 +226,7 @@
   color: rgba(255, 255, 255, 0.647);
   font-size: 18px;
 }
+
+
+
+
