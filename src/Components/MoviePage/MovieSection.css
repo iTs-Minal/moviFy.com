@@ -90,3 +90,16 @@
     font-weight: 600;
     color:azure
 }
+
+.trending-movie-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.movies-in-card{
+    margin-top: 1rem;;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:1rem;
+}

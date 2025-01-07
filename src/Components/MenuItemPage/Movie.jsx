@@ -1,5 +1,6 @@
 import { BiSolidMoviePlay } from "react-icons/bi";
 import "./Movie.css";
+import MovieCard from "../MoviePage/MovieCard";
 
 const Movie = () => {
   return (
@@ -12,7 +13,33 @@ const Movie = () => {
           </span>
           <h1 className="movie-text">Latest Movies</h1>
         </div>
-        <div className="movie-section"></div>
+        <div className="movie-section">
+        <div className="movies-in-card">
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+        </div>
+        </div>
       </div>
     </div>
   );
